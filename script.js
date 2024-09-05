@@ -27,7 +27,7 @@ let intro = document.querySelector('.intro')
     }
     setTimeout(() => {
       intro.style.top= '-100vh'
-    },12300);
+    },1300);
   typeEffect();
 
 function toggleMenu() {
@@ -36,3 +36,11 @@ function toggleMenu() {
     menu.classList.toggle("open");
     icon.classList.toggle("open");
 }
+
+// Sayfa yüklendiğinde kaydırma pozisyonunu sıfırlayın
+window.history.scrollRestoration = "manual"; // Tarayıcı kaydırma konumunu hatırlamasın
+
+// Sayfa tamamen yüklendiğinde sayfanın en üstüne git
+window.onload = function() {
+    window.scrollTo(0, 0); // Sayfanın en üstüne kaydır
+};
