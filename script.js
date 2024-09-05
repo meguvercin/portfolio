@@ -22,12 +22,12 @@ let intro = document.querySelector('.intro')
           isDeleting = !isDeleting;
           dynamicText.classList.remove("stop-blinking");
           wordIndex = !isDeleting ? (wordIndex + 1) % words.length : wordIndex;
-          setTimeout(typeEffect, 13200);
+          setTimeout(typeEffect, 1200);
       }
     }
     setTimeout(() => {
       intro.style.top= '-100vh'
-    },1300);
+    },12300);
   typeEffect();
 
 function toggleMenu() {
