@@ -95,6 +95,7 @@ body {
   h3{
     color: rgb(1, 1, 20);
     font-size: 1.50rem;
+	text-decoration: none;
 
   }
   nav {
