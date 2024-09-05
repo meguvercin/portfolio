@@ -232,6 +232,7 @@ body {
     justify-content: center;
     gap: 5rem;
     height: 80vh;
+    margin-top: -100px;
   }
   
   .section__pic-container {
@@ -507,16 +508,6 @@ body {
   footer p {
     text-align: center;
     color: white;
-  }
-
-  @media screen and(max-width: 1166px) {
-    .yapayzekagifi1{
-      opacity: 0.5;
-      width: 100%;
-      height: 700px;
-      object-fit: cover;
-      z-index: 1;
-    }
   }
   .yapayzekagifi1{
     opacity: 0.5;
