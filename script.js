@@ -12,11 +12,11 @@ let intro = document.querySelector('.intro')
       if (!isDeleting && charIndex < currentWord.length) {
           // If condition is true, type the next character
           charIndex++;
-          setTimeout(typeEffect, 30);
+          setTimeout(typeEffect, 10);
       } else if (isDeleting && charIndex > 0) {
           // If condition is true, remove the previous character
           charIndex--;
-          setTimeout(typeEffect, 30);
+          setTimeout(typeEffect, 10);
       } else {
           // If word is deleted then switch to the next word
           isDeleting = !isDeleting;
@@ -27,7 +27,7 @@ let intro = document.querySelector('.intro')
     }
     setTimeout(() => {
       intro.style.top= '-100vh'
-    },12300);
+    },10000);
   typeEffect();
 
 function toggleMenu() {
