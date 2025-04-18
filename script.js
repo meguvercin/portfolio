@@ -27,7 +27,7 @@ let intro = document.querySelector('.intro')
     }
     setTimeout(() => {
       intro.style.top= '-100vh'
-    },10000);
+    },9800);
   typeEffect();
 
 function toggleMenu() {
