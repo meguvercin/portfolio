@@ -609,6 +609,15 @@ body {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease;
   }
+  @media (max-width: 480px) {
+    .details-container {
+      margin-left: -20px;
+      padding: 15px;
+      min-width: 295px;
+      width: 100%;
+      height: 100%;
+    }
+  }
 
   .details-container:hover {
     transform: scale(1.03);
@@ -655,4 +664,13 @@ body {
     margin: 0;
     font-size: 12px;
     color: #ccc;
+  }
+  .profile-pic-responsive {
+    width: 100%;
+    max-width: 300px;
+    min-height: 200px;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    object-fit: cover;
   }
