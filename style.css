@@ -674,3 +674,9 @@ body {
     border-radius: 50%;
     object-fit: cover;
   }
+  @media (max-width: 480px) {
+    .profile-pic-responsive {
+      max-width: 180px; /* Daha küçük fotoğraf */
+      min-height: auto; /* Gerekirse min yükseklik kaldırılır */
+    }
+  }
